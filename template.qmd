@@ -1,0 +1,25 @@
+---
+title: Untitled
+format:
+  onsvpub-html: default
+author: autor
+date: last-modified
+---
+
+## Heading 1
+
+lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat dolore eu fugiat nulla pariatur.
+
+### Heading 2
+
+lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat dolore eu fugiat nulla pariatur.
+
+```{r}
+library(ggplot2)
+library(onsvplot)
+
+ggplot(mtcars, aes(wt, mpg)) +
+  geom_point(aes(color = factor(cyl))) +
+  theme_onsv() +
+  scale_discrete_onsv()
+```
