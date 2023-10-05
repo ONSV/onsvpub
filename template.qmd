@@ -6,19 +6,16 @@ author: autor
 date: last-modified
 ---
 
-## Heading 1
+## Título
 
 lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat dolore eu fugiat nulla pariatur.
 
-### Heading 2
+### Plots
 
-lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat dolore eu fugiat nulla pariatur [@].
+Em ggplot: @fig-temp
 
-```{r}
-#| fig-width: 6
-#| fig-height: 4
+```{r fig-temp}
 #| fig-cap: "plot"
-#| fig-
 
 library(ggplot2)
 library(onsvplot)
@@ -27,4 +24,15 @@ ggplot(mtcars, aes(wt, mpg)) +
   geom_point(aes(color = factor(cyl))) +
   theme_onsv() +
   scale_discrete_onsv()
+```
+
+### Tabelas
+
+Em markdown @tbl-temp
+
+```{r}
+#| label: tbl-temp
+#| tbl-cap: "Tabela"
+
+head(mtcars)
 ```

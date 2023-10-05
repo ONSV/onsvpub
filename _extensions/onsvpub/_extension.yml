@@ -10,9 +10,13 @@ contributes:
       toc: true
       theme: custom.scss
       dpi: 300
-      lang: pt
+      lang: pt-BR
       cap-location: top
       execute:
-        echo: false
         warning: false
+      fig-width: 6
+      fig-height: 4
+      fig-align: center
+      tbl-cap-location: top
+      df-print: kable
 
