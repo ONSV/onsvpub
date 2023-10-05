@@ -1,5 +1,5 @@
 title: Onsvpub
-authors: 
+authors:
   - name: pabsantos
   - name: jotasaraiva
 version: 0.1.0
@@ -11,7 +11,8 @@ contributes:
       theme: custom.scss
       dpi: 300
       lang: pt
-knitr: 
-  opts_chunk: 
-    fig.align: center      
+      cap-location: top
+      execute:
+        echo: false
+        warning: false
 
