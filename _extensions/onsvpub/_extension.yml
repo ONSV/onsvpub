@@ -23,6 +23,8 @@ contributes:
       dpi: 300
       tbl-cap-location: top
     pdf:
+      include-in-header:
+        - "onsv-header.tex"
       toc-title: Índice
       documentclass: article
       number-sections: true

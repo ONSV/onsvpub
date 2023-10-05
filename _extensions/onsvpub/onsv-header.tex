@@ -1,0 +1,15 @@
+\let\paragraph\oldparagraph
+\let\subparagraph\oldsubparagraph
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\definecolor{headingcolor}{HTML}{00496D} % Blue color
+
+\titleformat{\section}
+  {\color{headingcolor}\normalfont\Large\bfseries}
+  {\color{headingcolor}\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\color{headingcolor}\normalfont\large\bfseries}
+  {\color{headingcolor}\thesubsection}{1em}{}
