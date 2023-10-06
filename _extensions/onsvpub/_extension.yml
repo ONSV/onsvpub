@@ -22,6 +22,7 @@ contributes:
       theme: custom.scss
       dpi: 300
       tbl-cap-location: top
+      number-sections: true
     pdf:
       include-in-header:
         - "onsv-header.tex"

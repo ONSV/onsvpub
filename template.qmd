@@ -1,19 +1,60 @@
 ---
-title: Untitled
-format:
-  onsvpub-html: default
-  onsvpub-pdf: default
-author: autor
+title: "Template onsvpub"
+format: onsvpub-html
+author: 
+  - Pedro Augusto Borges dos Santos
+  - João Pedro Melani Saraiva
 date: last-modified
 ---
 
-## Título
+## Introdução
 
-lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat dolore eu fugiat nulla pariatur.
+Este é um template do [Quarto Markdown](quarto.org) com os padrões de formatação do [Observatório Nacional de Segurança Viária](onsv.org.br). Com o template é possível exportar os relatórios técnicos e outros estudos do Observatório em três formatos: html, pdf ou docx.
 
-### Plots
+### Importando o template
 
-Em ggplot: @fig-temp
+Para importar e começar a utilização do template em sua máquina, é necessário utilizar o `quarto` pelo terminal, com o seguinte comando:
+
+```bash
+quarto use template onsv/onsvpub
+
+```
+
+## Como utilizar
+
+### Formatos
+
+Para selecionar o formato desejado, é necessário inserir um entre os três tipos na parte `format:` do header YAML:
+
+```
+title: título do documento
+format: onsvpub-html
+author: nome do autor
+date: last-modified
+```
+
+Segue a lista dos três formatos:
+
+- `onsvpub-html`
+- `onsvpub-pdf`
+- `onsvpub-docx`
+
+Com o `quarto` no terminal também é possível renderizar com o comando:
+
+```bash
+quarto render documento.qmd --to onsvpub-html
+```
+
+em que `onsvpub-html` pode ser substituido por `onsvpub-pdf` ou `onsvpub-docx`.
+
+### Exemplos
+
+Aqui são apresentados alguns exemplos de aplicação do template.
+
+#### Gráficos
+
+Segue um exemplo de gráfico feito com o `ggplot2` e `onsvplot`. Ao utilizar um chunk de código, o comportamento padrão do template é ocultar o código. Mas é possível re-abilitar com `echo: true` nas opções do chunk. Aqui também segue um exemplo da possibilidade de fazer uma referência cruzada (@fig-temp).
+
 
 ```{r fig-temp}
 #| fig-cap: "plot"
@@ -26,6 +67,24 @@ ggplot(mtcars, aes(wt, mpg)) +
   theme_onsv() +
   scale_discrete_onsv()
 ```
+
+
+
+
+#### Tabelas
+
+#### Código
+
+### Dúvidas e sugestões
+
+
+lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat dolore eu fugiat nulla pariatur.
+
+### Plots
+
+Em ggplot: @fig-temp
+
+
 
 ### Tabelas
 
