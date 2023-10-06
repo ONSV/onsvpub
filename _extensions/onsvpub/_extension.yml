@@ -1,4 +1,4 @@
-title: Onsvpub
+title: onsvpub
 authors:
   - name: pabsantos
   - name: jotasaraiva
@@ -30,3 +30,8 @@ contributes:
       number-sections: true
       papersize: a4
       cite-method: biblatex
+      geometry:
+        - top=30mm
+        - left=30mm
+        - right=30mm
+        - bottom=30mm
