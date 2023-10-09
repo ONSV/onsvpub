@@ -58,6 +58,7 @@ Segue um exemplo de gráfico feito com o `ggplot2` e `onsvplot`. Ao utilizar um 
 
 ```{r fig-temp}
 #| fig-cap: "plot"
+#| echo: true
 
 library(ggplot2)
 library(onsvplot)
@@ -68,27 +69,9 @@ ggplot(mtcars, aes(wt, mpg)) +
   scale_discrete_onsv()
 ```
 
-
-
-
 #### Tabelas
 
-#### Código
-
-### Dúvidas e sugestões
-
-
-lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat dolore eu fugiat nulla pariatur.
-
-### Plots
-
-Em ggplot: @fig-temp
-
-
-
-### Tabelas
-
-Em markdown @tbl-temp
+As tabelas elaboradas em markdown são exibidas com o estilo do template, seguindo os parâmetros definidos em css. Segue um exemplo na @tbl-temp.
 
 ```{r}
 #| label: tbl-temp
@@ -96,3 +79,10 @@ Em markdown @tbl-temp
 
 head(mtcars)
 ```
+
+### Dúvidas e sugestões
+
+Para dúvidas ou sugestões, envie e-mail para pedro.borges@onsv.org.br ou abra uma issue em [github.com/onsv/onsvpub](https://github.com/onsv/onsvpub)
+
+
+
