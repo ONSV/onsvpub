@@ -40,3 +40,8 @@ contributes:
       reference-doc: onsv-ref.docx
       toc: false
       number-sections: true
+    revealjs:
+      toc: false
+      theme: [default, reveal.scss]
+      logo: "_extensions/onsv/onsvpub/onsv_icone.png"
+      transition: fade
