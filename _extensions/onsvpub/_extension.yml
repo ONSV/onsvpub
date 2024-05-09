@@ -43,5 +43,5 @@ contributes:
     revealjs:
       toc: false
       theme: [default, reveal.scss]
-      logo: "_extensions/onsvpub/onsv_icone.png"
+      logo: "_extensions/onsv/onsvpub/onsv_icone.png"
       transition: fade
