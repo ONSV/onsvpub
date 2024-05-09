@@ -59,4 +59,5 @@ template_files/
 *.bcf
 *.log
 *.toc
+*.tex
 
