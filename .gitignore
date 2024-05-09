@@ -54,3 +54,9 @@ template.html
 template_files/
 .DS_Store
 *.Rproj
+
+*.aux
+*.bcf
+*.log
+*.toc
+
