@@ -9,6 +9,10 @@ $link-color: $blue;
 
 /*-- scss:rules --*/
 
+figure.quarto-float div.leaflet-control {
+  text-align: left;
+}
+
 h1 {
   color: $blue;
 }
