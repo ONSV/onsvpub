@@ -6,6 +6,16 @@
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 
+\setmainfont{OpenSans}[
+    Path=_extensions/onsvpub/OpenSans/,
+    Scale=1,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    ]
+
+
 %% Cores nos títulos
 
 \definecolor{headingcolor}{HTML}{00496D} % Blue color
@@ -28,8 +38,8 @@
   \fancyhf{} % Clear header and footer
   \fancyfoot[L]{onsv.org.br} % Left footer text
   \fancyfoot[R]{\thepage} % Right footer: page number
-  \fancyhead[L]{\includegraphics[width=3.5cm]{_extensions/onsv/onsvpub/onsv_logo_header.png}}
-  \fancyhead[R]{\includegraphics[width=1.75cm]{_extensions/onsv/onsvpub/obs2030.png}}
+  \fancyhead[L]{\includegraphics[width=3.5cm]{_extensions/onsvpub/onsv_logo_header.png}}
+  \fancyhead[R]{\includegraphics[width=1.75cm]{_extensions/onsvpub/obs2030.png}}
   \setlength{\headsep}{0.5in}
   \renewcommand{\headrulewidth}{0.4pt} % Add header rule
   \renewcommand{\footrulewidth}{0.4pt} % Add a footer rule

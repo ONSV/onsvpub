@@ -36,6 +36,7 @@ contributes:
         - left=30mm
         - right=30mm
         - bottom=30mm
+      fontsize: 11
     docx:
       reference-doc: onsv-ref.docx
       toc: false
