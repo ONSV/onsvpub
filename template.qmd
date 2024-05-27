@@ -1,5 +1,5 @@
 ---
-title: "Template onsvpub"
+title: "**Template onsvpub**"
 format: onsvpub-html
 author: 
   - Pedro Augusto Borges dos Santos
@@ -49,7 +49,7 @@ em que `onsvpub-html` pode ser substituido por `onsvpub-pdf` ou `onsvpub-docx`.
 
 ### Exemplos
 
-Aqui são apresentados alguns exemplos de aplicação do template.
+Aqui são apresentados alguns exemplos de aplicação do **template**.
 
 #### Gráficos
 
